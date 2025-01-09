@@ -18,6 +18,7 @@ async def create_user():
     pass
 
 
+
 @router.put('/update')
 async def update_user():
     pass
