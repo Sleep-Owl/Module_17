@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3689cfa-9d7f-45ed-af2b-1038990aae77" name="Changes" comment="Модели SQLALchemy. Отношения между таблицами.">
-      <change afterPath="$PROJECT_DIR$/alembic.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/migrations/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/migrations/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/migrations/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/migrations/versions/4053db71f36e_initial_migration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
-    </list>
+    <list default="true" id="b3689cfa-9d7f-45ed-af2b-1038990aae77" name="Changes" comment="Миграции. Библиотека alembic" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -56,7 +51,7 @@
     "Python.task.executor": "Run",
     "Python.user.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "master4",
     "ignore.virus.scanning.warn.message": "true",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
@@ -141,12 +136,40 @@
       <option name="project" value="LOCAL" />
       <updated>1736937895038</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Миграции. Библиотека alembic">
+      <option name="closed" value="true" />
+      <created>1736941948368</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1736941948368</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Миграции. Библиотека alembic">
+      <option name="closed" value="true" />
+      <created>1736942413095</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736942413095</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Структура проекта. Маршруты и модели Pydantic" />
     <MESSAGE value="Модели SQLALchemy. Отношения между таблицами." />
-    <option name="LAST_COMMIT_MESSAGE" value="Модели SQLALchemy. Отношения между таблицами." />
+    <MESSAGE value="Миграции. Библиотека alembic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Миграции. Библиотека alembic" />
   </component>
 </project>
